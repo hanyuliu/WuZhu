@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WuZhu</string>
+    <string name="tagline">Block short-video feeds before they hook you.</string>
+
+    <string name="accessibility_service_description">Lets WuZhu detect Shorts, Reels, and other short-video elements on screen and cover them so they can\'t be watched.</string>
+    <string name="accessibility_status_enabled">Accessibility service is ON</string>
+    <string name="accessibility_status_disabled">Accessibility service is OFF</string>
+    <string name="accessibility_status_hint">WuZhu needs Accessibility access to see what\'s on screen and cover short-video elements. No data ever leaves your device.</string>
+    <string name="open_accessibility_settings">Enable Accessibility Service</string>
+
+
+    <string name="how_it_works_title">How it works</string>
+    <string name="how_it_works_body">WuZhu runs entirely on your device. Its Accessibility service watches the screen contents of whatever app is open, finds any actively playing video that matches its short-form feed detection rules, and fades in a cover over it over 10 seconds — enough time to see what it is, not enough to fall into it. Swiping to the next video reveals it again, restarting the countdown. Nothing is recorded, stored, or sent anywhere.</string>
+
+    <plurals name="overlay_stat_format">
+        <item quantity="one">%1$d short video skipped today</item>
+        <item quantity="other">%1$d short videos skipped today</item>
+    </plurals>
+    <string-array name="overlay_prompts">
+        <item>Still scrolling?</item>
+        <item>Worth your time?</item>
+        <item>Feeling hooked?</item>
+        <item>What were you doing before this?</item>
+        <item>One more, really?</item>
+        <item>Is this why you opened the app?</item>
+        <item>How long has it been?</item>
+        <item>What did you actually learn from that?</item>
+        <item>Chasing the next dopamine hit?</item>
+        <item>Who\'s really in control here?</item>
+        <item>The algorithm is optimized to keep you here.</item>
+        <item>Infinite scroll has no finish line. You do.</item>
+        <item>You won\'t remember this video tomorrow.</item>
+        <item>Dopamine now, regret later.</item>
+        <item>There\'s no \"end\" to reach. That\'s the design.</item>
+        <item>You\'re the product being optimized, not the customer.</item>
+    </string-array>
+</resources>
