@@ -1,10 +1,36 @@
-# WuZhu
+<img align="left" width="80" height="80" src="playstore-icon.png" alt="WuZhu app icon">
 
-An Android app that uses an Accessibility Service to detect short-video feeds — YouTube
-Shorts, Instagram/Facebook Reels, TikTok, RedNote (Xiaohongshu), and anything with the same
-structure — and fades in an opaque cover over them, so they can't be watched. Detection is
-purely structural (video render surface + swipeable feed container), not tied to a fixed list
-of apps. Everything runs on-device; nothing is recorded or sent anywhere.
+# WuZhu – Short Video Breaker
+
+<br>
+
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+
+**WuZhu** is a free, open source Android app that blocks short-video feeds before they hook
+you. An on-device Accessibility Service detects short-video feeds — YouTube Shorts,
+Instagram/Facebook Reels, TikTok, RedNote (Xiaohongshu), and anything with the same structure
+— by matching their video render surfaces, then covers them with an overlay so they can't be
+watched.
+
+Detection is purely structural (video render surface + swipeable feed container), not tied to
+a fixed list of apps. Everything runs on-device; nothing is recorded or sent anywhere.
+
+## Features
+
+- Blocks short-video feeds in any app, detected structurally instead of by an app allowlist
+- Covers YouTube Shorts, Instagram/Facebook Reels, TikTok, RedNote (Xiaohongshu), and similar
+  feeds out of the box
+- Gives you a brief moment to notice before fading in a cover, instead of blocking instantly
+- Tracks how many videos you've skipped today, right on the cover
+- 100% on-device — nothing is recorded, stored, or sent anywhere
+- Requires only the Accessibility Service; see [Permissions](#permissions) below for details
+
+## Why "WuZhu"?
+
+"WuZhu" 的发音刚好碰上两个点题的中文词：
+
+- **捂住** —— 短视频一开始播，立刻拿一层遮罩把画面"捂住"，让你看不到。
+- **五竹** —— App 图标画的是《庆余年》里的角色"五竹"，常年用一块布蒙着双眼，不看世界，却依然心如明镜。
 
 ## Build & install
 
@@ -67,3 +93,8 @@ wuzhu/src/main/java/me/hanyuliu/wuzhu/
 
 Only `BIND_ACCESSIBILITY_SERVICE` (declared on the service, required by the OS). No internet,
 storage, or overlay permission is requested.
+
+## License
+
+This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for
+details.
