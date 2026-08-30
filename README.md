@@ -47,6 +47,8 @@ on. Android will show a warning about the permissions an accessibility service h
 expected; WuZhu only reads on-screen content to detect video elements and never transmits it
 anywhere.
 
+[![Watch: how to enable WuZhu](https://img.youtube.com/vi/gYPXcLHzYww/maxresdefault.jpg)](https://youtube.com/shorts/gYPXcLHzYww)
+
 ## How it works
 
 - `ShortVideoAccessibilityService` scans the on-screen accessibility tree of whichever app is
