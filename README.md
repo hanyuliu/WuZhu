@@ -30,7 +30,7 @@ a fixed list of apps. Everything runs on-device; nothing is recorded or sent any
 "WuZhu" 的发音刚好碰上两个点题的中文词：
 
 - **捂住** —— 短视频一开始播，立刻拿一层遮罩把画面"捂住"，让你看不到。
-- **五竹** —— App 图标画的是《庆余年》里的角色"五竹"，常年用一块布蒙着双眼，不看世界，却依然心如明镜。
+- **五竹** —— App 图标画的是《庆余年》里的角色"五竹"，常年用一块布蒙着双眼，不受世间纷繁所扰。
 
 ## Build & install
 
