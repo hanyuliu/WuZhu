@@ -47,7 +47,11 @@ on. Android will show a warning about the permissions an accessibility service h
 expected; WuZhu only reads on-screen content to detect video elements and never transmits it
 anywhere.
 
+<p align="center">
+
 https://github.com/user-attachments/assets/d29cdde4-35f4-4ffe-bb5b-f3bccf8eac2a
+
+</p>
 
 ## How it works
 
