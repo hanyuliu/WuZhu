@@ -16,8 +16,9 @@ Detection is purely structural (video render surface + swipeable feed container)
 a fixed list of apps. Everything runs on-device; nothing is recorded or sent anywhere.
 
 Please join Test:
-Android: https://play.google.com/store/apps/details?id=me.hanyuliu.wuzhu
-Web: https://play.google.com/apps/testing/me.hanyuliu.wuzhu
+
+- Android: https://play.google.com/store/apps/details?id=me.hanyuliu.wuzhu
+- Web: https://play.google.com/apps/testing/me.hanyuliu.wuzhu
 
 ## Features
 
